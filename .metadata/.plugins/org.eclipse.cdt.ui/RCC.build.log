@@ -1,0 +1,217 @@
+10:38:14 **** Build of configuration Debug for project RCC ****
+make -j8 all 
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"User/main.d" -MT"User/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/main.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/selftest.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"User/selftest.d" -MT"User/selftest.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/selftest.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/stm32f4xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"User/stm32f4xx_it.d" -MT"User/stm32f4xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/stm32f4xx_it.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/system_stm32f4xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"User/system_stm32f4xx.d" -MT"User/system_stm32f4xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/system_stm32f4xx.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usb_bsp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"User/usb_bsp.d" -MT"User/usb_bsp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/usb_bsp.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"User/usbd_desc.d" -MT"User/usbd_desc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/usbd_desc.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_usr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"User/usbd_usr.d" -MT"User/usbd_usr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/usbd_usr.o"
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -c -mcpu=cortex-m4 -x assembler-with-cpp -MMD -MP -MF"TrueSTUDIO/startup_stm32f4xx.d" -MT"TrueSTUDIO/startup_stm32f4xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "TrueSTUDIO/startup_stm32f4xx.o" "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/CMSIS/ST/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f4xx.s"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_OTG_Driver/src/usb_core.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32_USB_OTG_Driver/usb_core.d" -MT"STM32_USB_OTG_Driver/usb_core.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32_USB_OTG_Driver/usb_core.o"
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c: In function 'USBD_USR_ProductStrDescriptor':
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/system_stm32f4xx.c: In function 'SetSysClock':
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/system_stm32f4xx.c:399:5: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  399 |     while ((RCC->CFGR & (uint32_t)RCC_CFGR_SWS ) != RCC_CFGR_SWS_PLL);
+      |     ^~~~~
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/system_stm32f4xx.c:400:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+  400 |     {
+      |     ^
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:57:39: warning: pointer targets in passing argument 1 of 'USBD_GetString' differ in signedness [-Wpointer-sign]
+   57 | #define USBD_PRODUCT_HS_STRING        "Joystick in HS mode"
+      |                                       ^~~~~~~~~~~~~~~~~~~~~
+      |                                       |
+      |                                       char *
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:215:21: note: in expansion of macro 'USBD_PRODUCT_HS_STRING'
+  215 |     USBD_GetString (USBD_PRODUCT_HS_STRING, USBD_StrDesc, length);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_core.h:27,
+                 from ../../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_dcd.h:27,
+                 from ../../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_core.h:27,
+                 from ../../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_ioreq.h:29,
+                 from ../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc/usbd_hid_core.h:27,
+                 from C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/main.c:24:
+../../../usb_conf.h:166: warning: "__packed" redefined
+  166 |   #define __packed    __attribute__ ((__packed__))
+      | 
+In file included from C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:25:
+../../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_req.h:86:30: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+   86 | void USBD_GetString(uint8_t *desc, uint8_t *unicode, uint16_t *len);
+      |                     ~~~~~~~~~^~~~
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:60:39: warning: pointer targets in passing argument 1 of 'USBD_GetString' differ in signedness [-Wpointer-sign]
+   60 | #define USBD_PRODUCT_FS_STRING        "Joystick in FS Mode"
+      |                                       ^~~~~~~~~~~~~~~~~~~~~
+      |                                       |
+      |                                       char *
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:219:21: note: in expansion of macro 'USBD_PRODUCT_FS_STRING'
+  219 |     USBD_GetString (USBD_PRODUCT_FS_STRING, USBD_StrDesc, length);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~
+In file included from c:\st\stm32cubeide_1.8.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346\tools\arm-none-eabi\include\stdio.h:35,
+                 from C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/selftest.h:27,
+                 from C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/main.h:30,
+                 from C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/main.c:23:
+c:\st\stm32cubeide_1.8.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346\tools\arm-none-eabi\include\sys\cdefs.h:247: note: this is the location of the previous definition
+  247 | #define __packed __attribute__((__packed__))
+      | 
+In file included from C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:25:
+../../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_req.h:86:30: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+   86 | void USBD_GetString(uint8_t *desc, uint8_t *unicode, uint16_t *len);
+      |                     ~~~~~~~~~^~~~
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c: In function 'USBD_USR_ManufacturerStrDescriptor':
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:55:39: warning: pointer targets in passing argument 1 of 'USBD_GetString' differ in signedness [-Wpointer-sign]
+   55 | #define USBD_MANUFACTURER_STRING      "STMicroelectronics"
+      |                                       ^~~~~~~~~~~~~~~~~~~~
+      |                                       |
+      |                                       char *
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:233:19: note: in expansion of macro 'USBD_MANUFACTURER_STRING'
+  233 |   USBD_GetString (USBD_MANUFACTURER_STRING, USBD_StrDesc, length);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:25:
+../../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_req.h:86:30: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+   86 | void USBD_GetString(uint8_t *desc, uint8_t *unicode, uint16_t *len);
+      |                     ~~~~~~~~~^~~~
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c: In function 'USBD_USR_SerialStrDescriptor':
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_OTG_Driver/src/usb_core.c: In function 'USB_OTG_WritePacket':
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:58:39: warning: pointer targets in passing argument 1 of 'USBD_GetString' differ in signedness [-Wpointer-sign]
+   58 | #define USBD_SERIALNUMBER_HS_STRING   "00000000011B"
+      |                                       ^~~~~~~~~~~~~~
+      |                                       |
+      |                                       char *
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:248:21: note: in expansion of macro 'USBD_SERIALNUMBER_HS_STRING'
+  248 |     USBD_GetString (USBD_SERIALNUMBER_HS_STRING, USBD_StrDesc, length);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:25:
+../../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_req.h:86:30: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+   86 | void USBD_GetString(uint8_t *desc, uint8_t *unicode, uint16_t *len);
+      |                     ~~~~~~~~~^~~~
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:61:39: warning: pointer targets in passing argument 1 of 'USBD_GetString' differ in signedness [-Wpointer-sign]
+   61 | #define USBD_SERIALNUMBER_FS_STRING   "00000000011C"
+      |                                       ^~~~~~~~~~~~~~
+      |                                       |
+      |                                       char *
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:252:21: note: in expansion of macro 'USBD_SERIALNUMBER_FS_STRING'
+  252 |     USBD_GetString (USBD_SERIALNUMBER_FS_STRING, USBD_StrDesc, length);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_OTG_Driver/src/usb_core.c:177:7: warning: 'packed' attribute ignored for type 'uint32_t *' {aka 'long unsigned int *'} [-Wattributes]
+  177 |       USB_OTG_WRITE_REG32( fifo, *((__packed uint32_t *)src) );
+      |       ^~~~~~~~~~~~~~~~~~~
+In file included from C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:25:
+../../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_req.h:86:30: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+   86 | void USBD_GetString(uint8_t *desc, uint8_t *unicode, uint16_t *len);
+      |                     ~~~~~~~~~^~~~
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c: In function 'USBD_USR_ConfigStrDescriptor':
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_OTG_Driver/src/usb_core.c: In function 'USB_OTG_ReadPacket':
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:63:39: warning: pointer targets in passing argument 1 of 'USBD_GetString' differ in signedness [-Wpointer-sign]
+   63 | #define USBD_CONFIGURATION_HS_STRING  "HID Config"
+      |                                       ^~~~~~~~~~~~
+      |                                       |
+      |                                       char *
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:268:21: note: in expansion of macro 'USBD_CONFIGURATION_HS_STRING'
+  268 |     USBD_GetString (USBD_CONFIGURATION_HS_STRING, USBD_StrDesc, length);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_OTG_Driver/src/usb_core.c:202:5: warning: 'packed' attribute ignored for type 'uint32_t *' {aka 'long unsigned int *'} [-Wattributes]
+  202 |     *(__packed uint32_t *)dest = USB_OTG_READ_REG32(fifo);
+      |     ^
+In file included from C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:25:
+../../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_req.h:86:30: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+   86 | void USBD_GetString(uint8_t *desc, uint8_t *unicode, uint16_t *len);
+      |                     ~~~~~~~~~^~~~
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:66:39: warning: pointer targets in passing argument 1 of 'USBD_GetString' differ in signedness [-Wpointer-sign]
+   66 | #define USBD_CONFIGURATION_FS_STRING  "HID Config"
+      |                                       ^~~~~~~~~~~~
+      |                                       |
+      |                                       char *
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:272:21: note: in expansion of macro 'USBD_CONFIGURATION_FS_STRING'
+  272 |     USBD_GetString (USBD_CONFIGURATION_FS_STRING, USBD_StrDesc, length);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:25:
+../../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_req.h:86:30: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+   86 | void USBD_GetString(uint8_t *desc, uint8_t *unicode, uint16_t *len);
+      |                     ~~~~~~~~~^~~~
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c: In function 'USBD_USR_InterfaceStrDescriptor':
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:64:39: warning: pointer targets in passing argument 1 of 'USBD_GetString' differ in signedness [-Wpointer-sign]
+   64 | #define USBD_INTERFACE_HS_STRING      "HID Interface"
+      |                                       ^~~~~~~~~~~~~~~
+      |                                       |
+      |                                       char *
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:289:21: note: in expansion of macro 'USBD_INTERFACE_HS_STRING'
+  289 |     USBD_GetString (USBD_INTERFACE_HS_STRING, USBD_StrDesc, length);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:25:
+../../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_req.h:86:30: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+   86 | void USBD_GetString(uint8_t *desc, uint8_t *unicode, uint16_t *len);
+      |                     ~~~~~~~~~^~~~
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:67:39: warning: pointer targets in passing argument 1 of 'USBD_GetString' differ in signedness [-Wpointer-sign]
+   67 | #define USBD_INTERFACE_FS_STRING      "HID Interface"
+      |                                       ^~~~~~~~~~~~~~~
+      |                                       |
+      |                                       char *
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:293:21: note: in expansion of macro 'USBD_INTERFACE_FS_STRING'
+  293 |     USBD_GetString (USBD_INTERFACE_FS_STRING, USBD_StrDesc, length);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_core.h:29,
+                 from C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_OTG_Driver/src/usb_core.c:23:
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_OTG_Driver/src/usb_core.c: In function 'USB_OTG_ActiveRemoteWakeup':
+In file included from C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Demonstration/usbd_desc.c:25:
+../../../../../Libraries/STM32_USB_Device_Library/Core/inc/usbd_req.h:86:30: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+   86 | void USBD_GetString(uint8_t *desc, uint8_t *unicode, uint16_t *len);
+      |                     ~~~~~~~~~^~~~
+../../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_defines.h:218:36: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  218 | #define USB_OTG_READ_REG32(reg)  (*(__IO uint32_t *)reg)
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_OTG_Driver/src/usb_core.c:1989:21: note: in expansion of macro 'USB_OTG_READ_REG32'
+ 1989 |         power.d32 = USB_OTG_READ_REG32(&pdev->regs.PCGCCTL);
+      |                     ^~~~~~~~~~~~~~~~~~
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_OTG_Driver/src/usb_core.c: In function 'USB_OTG_UngateClock':
+../../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_defines.h:218:36: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  218 | #define USB_OTG_READ_REG32(reg)  (*(__IO uint32_t *)reg)
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_OTG_Driver/src/usb_core.c:2023:19: note: in expansion of macro 'USB_OTG_READ_REG32'
+ 2023 |       power.d32 = USB_OTG_READ_REG32(&pdev->regs.PCGCCTL);
+      |                   ^~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_OTG_Driver/src/usb_dcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32_USB_OTG_Driver/usb_dcd.d" -MT"STM32_USB_OTG_Driver/usb_dcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32_USB_OTG_Driver/usb_dcd.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_OTG_Driver/src/usb_dcd_int.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32_USB_OTG_Driver/usb_dcd_int.d" -MT"STM32_USB_OTG_Driver/usb_dcd_int.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32_USB_OTG_Driver/usb_dcd_int.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_Device_Library/Core/src/usbd_core.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32_USB_Device_Library/Core/usbd_core.d" -MT"STM32_USB_Device_Library/Core/usbd_core.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32_USB_Device_Library/Core/usbd_core.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_Device_Library/Core/src/usbd_ioreq.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32_USB_Device_Library/Core/usbd_ioreq.d" -MT"STM32_USB_Device_Library/Core/usbd_ioreq.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32_USB_Device_Library/Core/usbd_ioreq.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_Device_Library/Core/src/usbd_req.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32_USB_Device_Library/Core/usbd_req.d" -MT"STM32_USB_Device_Library/Core/usbd_req.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32_USB_Device_Library/Core/usbd_req.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_Device_Library/Class/hid/src/usbd_hid_core.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32_USB_Device_Library/Class/hid/usbd_hid_core.d" -MT"STM32_USB_Device_Library/Class/hid/usbd_hid_core.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32_USB_Device_Library/Class/hid/usbd_hid_core.o"
+In file included from ../../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_core.h:29,
+                 from ../../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_dcd.h:27,
+                 from ../../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_dcd_int.h:27,
+                 from C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_OTG_Driver/src/usb_dcd_int.c:23:
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_OTG_Driver/src/usb_dcd_int.c: In function 'DCD_HandleResume_ISR':
+../../../../../Libraries/STM32_USB_OTG_Driver/inc/usb_defines.h:218:36: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  218 | #define USB_OTG_READ_REG32(reg)  (*(__IO uint32_t *)reg)
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32_USB_OTG_Driver/src/usb_dcd_int.c:361:17: note: in expansion of macro 'USB_OTG_READ_REG32'
+  361 |     power.d32 = USB_OTG_READ_REG32(&pdev->regs.PCGCCTL);
+      |                 ^~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/misc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/misc.d" -MT"STM32F4xx_StdPeriph_Driver/misc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4xx_StdPeriph_Driver/misc.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/stm32f4xx_adc.d" -MT"STM32F4xx_StdPeriph_Driver/stm32f4xx_adc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4xx_StdPeriph_Driver/stm32f4xx_adc.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/stm32f4xx_dac.d" -MT"STM32F4xx_StdPeriph_Driver/stm32f4xx_dac.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4xx_StdPeriph_Driver/stm32f4xx_dac.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/stm32f4xx_dma.d" -MT"STM32F4xx_StdPeriph_Driver/stm32f4xx_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4xx_StdPeriph_Driver/stm32f4xx_dma.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/stm32f4xx_exti.d" -MT"STM32F4xx_StdPeriph_Driver/stm32f4xx_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4xx_StdPeriph_Driver/stm32f4xx_exti.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/stm32f4xx_flash.d" -MT"STM32F4xx_StdPeriph_Driver/stm32f4xx_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4xx_StdPeriph_Driver/stm32f4xx_flash.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/stm32f4xx_gpio.d" -MT"STM32F4xx_StdPeriph_Driver/stm32f4xx_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4xx_StdPeriph_Driver/stm32f4xx_gpio.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/stm32f4xx_i2c.d" -MT"STM32F4xx_StdPeriph_Driver/stm32f4xx_i2c.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4xx_StdPeriph_Driver/stm32f4xx_i2c.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/stm32f4xx_rcc.d" -MT"STM32F4xx_StdPeriph_Driver/stm32f4xx_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4xx_StdPeriph_Driver/stm32f4xx_rcc.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/stm32f4xx_spi.d" -MT"STM32F4xx_StdPeriph_Driver/stm32f4xx_spi.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4xx_StdPeriph_Driver/stm32f4xx_spi.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/stm32f4xx_syscfg.d" -MT"STM32F4xx_StdPeriph_Driver/stm32f4xx_syscfg.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4xx_StdPeriph_Driver/stm32f4xx_syscfg.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/stm32f4xx_tim.d" -MT"STM32F4xx_StdPeriph_Driver/stm32f4xx_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4xx_StdPeriph_Driver/stm32f4xx_tim.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Utilities/STM32F4-Discovery/stm32f4_discovery.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4-Discovery/stm32f4_discovery.d" -MT"STM32F4-Discovery/stm32f4_discovery.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4-Discovery/stm32f4_discovery.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Utilities/STM32F4-Discovery/stm32f4_discovery_audio_codec.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4-Discovery/stm32f4_discovery_audio_codec.d" -MT"STM32F4-Discovery/stm32f4_discovery_audio_codec.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4-Discovery/stm32f4_discovery_audio_codec.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Utilities/STM32F4-Discovery/stm32f4_discovery_lis302dl.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -DUSE_USB_OTG_FS -DHSE_VALUE=8000000 -c -I../../../ -I../../../../../Libraries/CMSIS/Include -I../../../../../Libraries/CMSIS/ST/STM32F4xx/Include -I../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../../../../../Utilities/STM32F4-Discovery -I"../../../../../Libraries/STM32_USB_OTG_Driver/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Class/hid/inc" -I"../../../../../Libraries/STM32_USB_Device_Library/Core/inc" -I"../../../../../Utilities/STM32F4-Discovery" -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4-Discovery/stm32f4_discovery_lis302dl.d" -MT"STM32F4-Discovery/stm32f4_discovery_lis302dl.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4-Discovery/stm32f4_discovery_lis302dl.o"
+arm-none-eabi-gcc -o "RCC.elf" @"objects.list"   -mcpu=cortex-m3 -T"../stm32_flash.ld" --specs=nosys.specs -Wl,-Map="RCC.map" -Wl,--gc-sections -static -Wl,-cref,-u,Reset_Handler --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RCC.elf
+ 
+arm-none-eabi-size   RCC.elf 
+arm-none-eabi-objdump -h -S  RCC.elf  > "RCC.list"
+arm-none-eabi-objcopy  -O binary  RCC.elf  "RCC.bin"
+   text	   data	    bss	    dec	    hex	filename
+  17784	    384	   2908	  21076	   5254	RCC.elf
+Finished building: default.size.stdout
+ 
+Finished building: RCC.bin
+ 
+Finished building: RCC.list
+ 
+
+10:38:22 Build Finished. 0 errors, 16 warnings. (took 7s.495ms)
+

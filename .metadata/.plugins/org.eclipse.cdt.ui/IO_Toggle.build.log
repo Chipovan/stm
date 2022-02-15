@@ -1,0 +1,34 @@
+11:32:38 **** Build of configuration Debug for project IO_Toggle ****
+make all 
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Peripheral_Examples/IO_Toggle/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -c -I"../../../../../../Libraries/CMSIS/Include" -I"../../../../../../Libraries/CMSIS/ST/STM32F4xx/Include" -I"../../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc" -I"../../../../../../Utilities/STM32F4-Discovery" -I../../../ -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"User/main.d" -MT"User/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/main.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Peripheral_Examples/IO_Toggle/stm32f4xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -c -I"../../../../../../Libraries/CMSIS/Include" -I"../../../../../../Libraries/CMSIS/ST/STM32F4xx/Include" -I"../../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc" -I"../../../../../../Utilities/STM32F4-Discovery" -I../../../ -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"User/stm32f4xx_it.d" -MT"User/stm32f4xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/stm32f4xx_it.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Peripheral_Examples/IO_Toggle/system_stm32f4xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -c -I"../../../../../../Libraries/CMSIS/Include" -I"../../../../../../Libraries/CMSIS/ST/STM32F4xx/Include" -I"../../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc" -I"../../../../../../Utilities/STM32F4-Discovery" -I../../../ -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"User/system_stm32f4xx.d" -MT"User/system_stm32f4xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/system_stm32f4xx.o"
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Peripheral_Examples/IO_Toggle/system_stm32f4xx.c: In function 'SetSysClock':
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Peripheral_Examples/IO_Toggle/system_stm32f4xx.c:394:5: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  394 |     while ((RCC->CFGR & (uint32_t)RCC_CFGR_SWS ) != RCC_CFGR_SWS_PLL);
+      |     ^~~~~
+C:/ST/STM32F4-Discovery_FW_V1.1.0/Project/Peripheral_Examples/IO_Toggle/system_stm32f4xx.c:395:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+  395 |     {
+      |     ^
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -c -mcpu=cortex-m4 -x assembler-with-cpp -MMD -MP -MF"TrueSTUDIO/startup_stm32f4xx.d" -MT"TrueSTUDIO/startup_stm32f4xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "TrueSTUDIO/startup_stm32f4xx.o" "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/CMSIS/ST/STM32F4xx/Source/Templates/TrueSTUDIO/startup_stm32f4xx.s"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/misc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -c -I"../../../../../../Libraries/CMSIS/Include" -I"../../../../../../Libraries/CMSIS/ST/STM32F4xx/Include" -I"../../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc" -I"../../../../../../Utilities/STM32F4-Discovery" -I../../../ -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/misc.d" -MT"STM32F4xx_StdPeriph_Driver/misc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4xx_StdPeriph_Driver/misc.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -c -I"../../../../../../Libraries/CMSIS/Include" -I"../../../../../../Libraries/CMSIS/ST/STM32F4xx/Include" -I"../../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc" -I"../../../../../../Utilities/STM32F4-Discovery" -I../../../ -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/stm32f4xx_gpio.d" -MT"STM32F4xx_StdPeriph_Driver/stm32f4xx_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4xx_StdPeriph_Driver/stm32f4xx_gpio.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -c -I"../../../../../../Libraries/CMSIS/Include" -I"../../../../../../Libraries/CMSIS/ST/STM32F4xx/Include" -I"../../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc" -I"../../../../../../Utilities/STM32F4-Discovery" -I../../../ -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4xx_StdPeriph_Driver/stm32f4xx_rcc.d" -MT"STM32F4xx_StdPeriph_Driver/stm32f4xx_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4xx_StdPeriph_Driver/stm32f4xx_rcc.o"
+arm-none-eabi-gcc "C:/ST/STM32F4-Discovery_FW_V1.1.0/Utilities/STM32F4-Discovery/stm32f4_discovery.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_STDPERIPH_DRIVER -DSTM32F4XX -c -I"../../../../../../Libraries/CMSIS/Include" -I"../../../../../../Libraries/CMSIS/ST/STM32F4xx/Include" -I"../../../../../../Libraries/STM32F4xx_StdPeriph_Driver/inc" -I"../../../../../../Utilities/STM32F4-Discovery" -I../../../ -O0 -ffunction-sections -fdata-sections -Wall -mcpu=cortex-m4 -Os -fstack-usage -MMD -MP -MF"STM32F4-Discovery/stm32f4_discovery.d" -MT"STM32F4-Discovery/stm32f4_discovery.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "STM32F4-Discovery/stm32f4_discovery.o"
+arm-none-eabi-gcc -o "IO_Toggle.elf" @"objects.list"   -mcpu=cortex-m3 -T"../stm32_flash.ld" --specs=nosys.specs -Wl,-Map="IO_Toggle.map" -Wl,--gc-sections -static -Wl,-cref,-u,Reset_Handler --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: IO_Toggle.elf
+ 
+arm-none-eabi-size   IO_Toggle.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1196	      8	   1060	   2264	    8d8	IO_Toggle.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S  IO_Toggle.elf  > "IO_Toggle.list"
+Finished building: IO_Toggle.list
+ 
+arm-none-eabi-objcopy  -O binary  IO_Toggle.elf  "IO_Toggle.bin"
+Finished building: IO_Toggle.bin
+ 
+
+11:32:42 Build Finished. 0 errors, 1 warnings. (took 4s.126ms)
+
